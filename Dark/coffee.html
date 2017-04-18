@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <div class= "nav">
+  <center>
+    <ul>
+      <li><a href="Technology.html">Tech</li>
+      <li><a href="index.html">Home</li>
+      <li><a href="photos.html">Photos</li>
+      <li><a href="books.html">Books</a></li>
+    </ul>
+
+    </a>
+  </center>
+  </div>
+  <head>
+  <title>Egor's Site</title> 
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Suez+One&subset=latin-ext" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:400,700&subset=latin-ext" rel="stylesheet">
+    <style>
+       #map {
+        height: 700px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        }
+        #uluru {
+          color:black;
+        }
+
+        p{
+          font-weight: normal;
+        }
+    </style>
+  </head>
+  <body>
+  <div class="lime"> </div>
+  <center>
+    <h2>Best Coffee in Moscow, Russia</h2>
+   </center>
+  <div class="lime"> </div>
+    <div id="map"></div>
+    <script>
+      var labels = '123456789';
+      var labelIndex = 0;
+
+      function initMap() {
+        var uluru = {lat: 55.743, lng: 37.602};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 13,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map,
+          label: labels[labelIndex++ % labels.length],
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNGPxlw_3zzSCqP45a2rZAJAkjVgDLSLM&callback=initMap">
+    </script>
+
+  <div class="lime"> </div>
+    <ol>
+      <li>West.4 has a vinyl player, serves some of the best flat whites in Moscow, and the public there is great. A Must Go!</li>
+      <li>Coffee&Books is a tiny coffee boutique in the Respublika store in Atrium. It serves exceptional cappuchinos and amazingly delectable cookies. You owe it to yourself to go there and read a book, at least once.</li>
+      <li>Grand Coffeemania is much more expensive than other cafes on this list, but it has much better service and interiors, as well as glassware. Try the cortado, flat white and espresso</li>
+      <li>Surf Coffee is the cheapest, serves the least viable coffee. Don't get the espresso though, try the syrups, whipped cream and toppings.</li>
+      <li>VOGUE Cafe is VERY trendy with the vogue (sorry for the terrible pun) Muscovite public.</li>
+      <li>DoubleB is one of the main mainstream "excellent coffee" chains. Definitly try the author's drinks, as well as the Coconut-Almond Flat White</li>
+    </ol>
+
+  <div class="lime"> </div>
+  </body>
+</html> 

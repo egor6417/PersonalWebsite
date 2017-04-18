@@ -1,8 +1,6 @@
 html, body {
 	font-family:'Suez One', sans-serif;
-	font-weight: 100;
-	background-color:black;
-	color: white;}
+	font-weight: 100;}
 
 h1 {
 	font-size:48px;
@@ -11,25 +9,28 @@ h1 {
 	margin-right: 100px;}
  
 h2{
-	color: white;
+	color: black;
 	margin-left: 100px;
 	margin-right: 100px;
 	font-weight:400;}
 
 h3 {     
-    color:white;  
+    color:black;  
     font-weight:400;
     margin-left: 100px;
-	margin-right: 100px;}
+	margin-right: 100px;
+	text-decoration: none;
+	text-transform: none;
+text-decoration-style}
 
 h4{
-	color: white;
-	margin-left: 90px;
+	color: black;
+	margin-left:90px;
 	margin-right: 120px;
 	font-weight: 400;}
 
 h5 {     
-    color:white;  
+    color:black;  
     margin-left: 100px;
 	margin-right: 100px;
 	font-size: 25px;}
@@ -41,20 +42,21 @@ p {
 
 a {
   	text-decoration: none;
-  	color: white;}
+  	color: black;
+  	}
 
 li {
-	padding-left: 20px;
+	padding-left: 10px;
 	font-size: 14px;
-	margin: 0 0 36px;
-	color:white;
+	margin: 0 0 0;
+	color:black;
 	position: center;
 	margin-left: 100px;}	   	
 
 .nav a {
 		display: inline;
 		font-size: 24px;
-		color:white;
+		color:black;
 		position: center;
 		font-size: 36px; 
 		text-align: center;
@@ -78,8 +80,7 @@ li {
 .post {
 	margin-left: 10px;
 	font-family: 'Suez One', serif;
-	font-size: 24px;
-color: white;}
+	font-size: 24px;}
 
 
 
@@ -93,10 +94,15 @@ color: white;}
 
 .social {
 	margin-left: 50%;
-	margin-right: 50%;
-	color:white;}
+	margin-right: 50%;}
 
 .eval {
 	margin-left:50px;
-	color:white;
+}
+
+.russian {
+	font-family: 'Roboto Slab';
+	margin-left: 10px;
+	font-size: 24px;
+	font-weight: 900;
 }
