@@ -8,7 +8,8 @@ h1 {
 	font-size:48px;
 	font-weight: 400;
 	margin-left: 50px;
-	margin-right: 100px;}
+	margin-right: 100px;
+	color:white;}
  
 h2{
 	color: white;
@@ -35,6 +36,7 @@ h5 {
 	font-size: 25px;}
 
 p {
+	color:white;
 	font-size: 18px;
 	margin-left: 100px;
 	margin-right: 100px;}
